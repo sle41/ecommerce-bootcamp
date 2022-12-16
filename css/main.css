@@ -1,6 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Monofett&family=Oswald:wght@200;300;500&display=swap");
+*,
+*::before *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
 .main-nav {
-  background-color: rgb(50, 8, 202);
-  color: white;
+  background-color: salmon;
+  color: rgb(188, 246, 248);
   height: 50px;
   display: flex;
   align-items: center;
